@@ -22,7 +22,7 @@
                 "name": "enable",
                 "label": "Enable Field",
                 "type": "boolean",
-                "id": "4f52fb50ab231d9acb66e8fa1087c920406ad7ac3cf42bfedbc7b0a816240e71",
+                "id": "759af894c6d74620953620c733f74deb02cd1747fdf281b84af89a096f157a80",
                 "display": "toggle",
                 "default": true
             },
@@ -35,7 +35,7 @@
                 "label": "Number Fields",
                 "type": "number",
                 "visibility": {
-                    "controlling_field": "4f52fb50ab231d9acb66e8fa1087c920406ad7ac3cf42bfedbc7b0a816240e71",
+                    "controlling_field": "759af894c6d74620953620c733f74deb02cd1747fdf281b84af89a096f157a80",
                     "controlling_value_regex": true,
                     "operator": "EQUAL"
                 }
@@ -70,7 +70,7 @@
                 "name": "enable",
                 "label": "Enable Field",
                 "type": "boolean",
-                "id": "14ddab5222509c50017bf756e1933cb0e1d8f585ad32b08afd058d45eed77fa1",
+                "id": "c5bb6498ef49f79a0f768a9f729594c0a25cd57e0505fb549dbc4904636f576c",
                 "display": "toggle",
                 "default": true
             },
@@ -83,7 +83,7 @@
                 "label": "Number Fields",
                 "type": "number",
                 "visibility": {
-                    "controlling_field": "14ddab5222509c50017bf756e1933cb0e1d8f585ad32b08afd058d45eed77fa1",
+                    "controlling_field": "c5bb6498ef49f79a0f768a9f729594c0a25cd57e0505fb549dbc4904636f576c",
                     "controlling_value_regex": true,
                     "operator": "EQUAL"
                 }
@@ -103,5 +103,11 @@
         "inline_help_text": "",
         "help_text": "",
         "default": {}
+    },
+    {
+        "type": "group",
+        "name": "styles",
+        "tab": "STYLE",
+        "children": []
     }
 ]

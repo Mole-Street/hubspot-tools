@@ -1,4 +1,4 @@
-const { Group, Field } = require('@igomoon/hubspot-fields-js');
+const { Group, Style, Field } = require('@igomoon/hubspot-fields-js');
 
 let TestGroup = require('../fields/TestGroup');
 
@@ -17,5 +17,8 @@ module.exports = [
 		showEnable: true,
 		showCssClass: true
 	})
-		.name('group2','Group 2')
+		.name('group2','Group 2'),
+
+	new Style()
+		.children()
 ]
