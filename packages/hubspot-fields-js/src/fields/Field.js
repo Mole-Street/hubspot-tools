@@ -14,6 +14,31 @@ class Field extends ModuleField {
     }
 
     /**
+     * Alignment field
+     * @param {Object} overrides
+     */
+    static alignment(overrides) {
+        return new Field(Object.assign({
+            "name": "img_position",
+            "label": "Position Image",
+            "help_text": "Position the image within it's container.",
+            "type": "alignment"
+        }, overrides));
+    }
+
+    /**
+     * Background Image field
+     * @param {Object} overrides
+     */
+    static backgroundImage(overrides) {
+        return new Field(Object.assign({
+            "name": "bg_image",
+            "label": "Background image",
+            "type": "backgroundimage",
+        }, overrides));
+    }
+
+    /**
      * Blog field
      * @param {Object} overrides 
      */
@@ -35,6 +60,18 @@ class Field extends ModuleField {
             "label": "Boolean field",
             "type": "boolean",
             //"default": false
+        }, overrides));
+    }
+
+    /**
+     * Border field
+     * @param {Object} overrides
+     */
+    static border(overrides) {
+        return new Field(Object.assign({
+            "name" : "border",
+            "label" : "border",
+            "type" : "border"
         }, overrides));
     }
 
@@ -334,6 +371,18 @@ class Field extends ModuleField {
     }
 
     /**
+     * Text Alignment field
+     * @param {Object} overrides
+     */
+    static textAlignment(overrides) {
+        return new Field(Object.assign({
+            "name": "heading_align",
+            "label": "Heading alignment",
+            "type": "textalignment",
+        }, overrides));
+    }
+
+    /**
      * Text field
      * @param {Object} overrides 
      */
@@ -382,6 +431,18 @@ class Field extends ModuleField {
             "name": "simplemenu_field",
             "label": "Simple menu field",
             "type": "simplemenu"
+        }, overrides));
+    }
+
+    /**
+     * Spacing field
+     * @param {Object} overrides
+     */
+    static spacing(overrides) {
+        return new Field(Object.assign({
+            "name": "img_spacing",
+            "label": "Spacing around image",
+            "type": "spacing"
         }, overrides));
     }
 
