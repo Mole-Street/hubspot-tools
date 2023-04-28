@@ -20,5 +20,11 @@ module.exports = [
 		.name('group2','Group 2'),
 
 	new Style()
-		.children()
+		.children([	
+			Field.spacing(),
+			Field.alignment(),
+			Field.backgroundImage(),
+			Field.border(),
+			Field.textAlignment(),
+		])
 ]
