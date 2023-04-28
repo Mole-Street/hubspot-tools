@@ -8,6 +8,7 @@ class Style extends ModuleField {
     this.data = Object.assign({
       "type": "group",
       "name": "styles",
+      "label": "Styles",
       "tab": 'STYLE',
       "children": children,
     }, overrides);
